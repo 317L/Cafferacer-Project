@@ -154,10 +154,11 @@ title {
   width: 100%;
   background-color: #461220;
 }
+
 #transformh1:hover {
   padding-right: 50px;
-  transform: rotate(-320deg);
-  transition: ease-in-out 400ms;
+  transform: rotate(-360deg);
+  
   
 }
 .grid-container {
