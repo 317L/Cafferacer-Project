@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=yes"
     />
     <meta name="author" content="Eugenio Segala" />
     <meta name="description" content="An extremely easy and clear SlideShow Background dev in Vanilla JS." />
@@ -22,6 +22,7 @@
     />
   </head>
   <body>
+    <div class="slider"></div>
     <div class="head-line">
       <div class="dropdown">
         <a class="dropbtn">ABOUT US</a>
@@ -39,38 +40,26 @@
       </div>
     </div>
     <div class="page2">
-      <div style="display: flex; justify-content: center; margin-top: 100px; height: 200px">
-        <h1 id="transformh1" style="color: brown; font-size: 150px;;
-        transition: 800ms ease-in-out;">Hi</h1>
+      <div style="display: flex; justify-content: center; margin-top: 100px; height: 200px;">
+        <h1 id="transformh1" style="color: brown; font-size: 150px; transition: 800ms ease-in-out">Hi</h1>
         <h1 id="transformh2" style="font-size: 150px">Im</h1>
-        <h1 id="transformh3" style="font-size: 150px">Adnan</h1>
+        <h1 id="transformh2" style="font-size: 150px">Adnan</h1>
         <!--<i class="fa fa-motorcycle" style="font-size: 150px;color:white; (0, 0, 0)"></i>-->
       </div>
-      
-      <div class="grid">
-        <div class="grid-container">
-          <div class="grid-item">1</div>
-          <div class="grid-item">2</div>
-          <div class="grid-item">3</div>
-          <div class="grid-item">4</div>
-          <div class="grid-item">5</div>
-          <div class="grid-item">6</div>
-          <div class="grid-item">7</div>
-          <div class="grid-item">8</div>
-          <div class="grid-item">9</div>
-          <div class="grid-item">10</div>
-          <div class="grid-item">11</div>
-          <div class="grid-item">12</div>
-        </div>
-      </div>
-
-      <!--<div id="transform1" class="about-goal">
-        
-      </div>-->
     </div>
-
-    <div class="page3"></div>
-
+    <div class="first-box">
+         <div class="grid-top"></div>
+         <div class="grid-left">
+         <div class="grid-in-left"></div>
+         <div class="grid-in-right"></div>
+         <div class="grid-in-down-right"></div>
+         </div>
+         <div class="grid-in-bottom">
+          <div class="grid-in-right-bottom"></div>
+          <div class="grid-in-left-bottom"></div>
+         </div>
+    
+    </div>
     <!--<div class="socials">
           <a href="#" class="fa fa-facebook"></a>
           <a href="#" class="fa fa-instagram"></a>

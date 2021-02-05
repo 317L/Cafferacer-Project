@@ -1,15 +1,15 @@
 html,
 body {
-  
   width: 100%;
   height: 50%;
   margin: 0;
   padding: 0;
-  background-size: cover;
   }
 body::-webkit-scrollbar {
   width: 0px; }
-
+.element.style {
+  
+}
 
 @font-face {
   font-family: GraublauWeb;
@@ -92,13 +92,13 @@ title {
   font-size: 15px;
   margin-right: 15px;
   padding: 5px;
+  transition: 200ms ease-in-out ;
 
 }
 .login-sign a:hover {
   border-radius: 20%;
   padding: 5px;
   font-size: 20px;
-  transition: ease-in-out 100ms;
   color: white;
   text-decoration: none;
 }
@@ -144,43 +144,91 @@ title {
 }
 .page2 {
   width: 100%;
+  height: 100%;
   background-color: #111111;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-.page3 {
-  height: 300px;
-  width: 100%;
-  background-color: #461220;
-}
-
 #transformh1:hover {
   padding-right: 50px;
   transform: rotate(-360deg);
-  
-  
 }
-.grid-container {
-  margin-top: 400px;
-  display: grid;
-  grid-gap: 20px 20px;
-  grid-template-columns: auto auto auto auto;
-  background-color: #2195f300;
-  padding: 10px;
-  width: 80%;
-  margin-left: 100px;
-  
+#transformh2 {
+
 }
-.grid-item {
-  background: linear-gradient(180deg,#434343 50%, #434343 50%);
-  margin: 0px 20px 20px 20px; 
-  background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-  border-radius: 6px;
+.first-box {
+  padding-left: 20%;
+  margin: 0px;
+  padding-top: 100px;
+  width: 100%;
+  height: 2000px; 
+  background-color: #111111;
+}
+.grid-top{
+  width: 70%;
+  height: 200px;
+  background-color: #e25d1b;
+  border-radius: 15px;
+}
+.grid-left{
+  
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  width: 70%;
+  height: 300px;
+  background-color: #faece500;
+  border-radius: 15px;   }
+
+.grid-in-left {
+  width: 450px;
   height: 500px;
-  width: 300 ;
+  background-color:#e25d1b;
+  position: relative;
+  right: 0px;
+  border-radius: 15px; 
+  
+}
+.grid-in-right {
+  width: 280px;
+  height: 300px;
+  background-color:#e25d1b;
+  position: relative;
+  right: 0px;
+  border-radius: 15px; 
+  margin-left: 25px;
+}
+.grid-in-bottom {
+  
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  width: 70%;
+  height: 300px;
+  background-color: #faece500;
+  border-radius: 15px;
+}
+.grid-in-right-bottom {
+  width: 450px;
+  height: 500px;
+  background-color:#e25d1b;
+  right: 0px;
+  border-radius: 15px; 
+  margin-top: 200px;
+  margin-right: 25px;
+}
+.grid-in-left-bottom {
+  width: 620px;
+  height: 700px;
+  background-color:#e25d1b;
+  border-radius: 15px; 
+}
+.grid-in-down-right {
+  padding-top: 300px;
+  width: 300px;
+  height: 100px;
+  background-color:#e25d1b;
+  border-radius: 15px; 
+  margin-left: 35px;
 }
